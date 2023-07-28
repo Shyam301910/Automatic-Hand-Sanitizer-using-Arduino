@@ -1,1 +1,26 @@
-# Automatic-Hand-Sanitizer-using-Arduino
+# Introduction
+At present, the whole world is going through a pandemic due to COVID-19, which was first spotted in December 2019 in Wuhan, China. Since this virus is highly contagious, the WHO has provided some guidelines to reduce its community transmission in various ways. One of the mandatory recommended actions is to perform hand washes/rub with soap/hand sanitizer in a frequent manner. In principle, hand hygiene is now recognized as one of the most crucial issues for infection prevention and control. In the wake of the increasing severity of disease and treatment complexity, and a global pandemic superimposed by MDR pathogen infections, the HCPs are now returning to the basics of infection prevention by simple measures such as hand hygiene. A relevant study conducted by White et al. has shown a decrease of 14.8–39.9% in the upper respiratory disease symptoms among residential students (university) due to a general improvement of hand hygiene behavior. 
+ABHS is a useful material against the spread of infectious viruses in crowded areas such as clinics, workplaces, schools, etc. It also helps to reduce the spread of disease-causing germs and bacteria. In public places including hospitals, the use of mechanical dispensers is found widespread. Since physical contact is mandatory for using mechanical dispensers, they are vulnerable to pathogen infection. By performing a study on the hospital-based mechanical hand sanitizer dispenser, Erief et al. concluded that the infected person may contaminate the dispenser which may trigger hospital-acquired infection. Automated pushbutton hand sanitizer dispensers are usually deployed in healthcare facilities, but these devices often have the possibility of being contaminated and become a center for pathogens. Based on some other earlier studies, it is clear that mechanical and electrical dispensers (having a pushbutton) are vulnerable as these can be contaminated with pathogens that cause HAI. 
+Consequently, nowadays, automated touchless sanitizers are taking place in healthcare facilities, especially in developed countries. As this dispenser does not require any human contact to operate, it can be very effective to stop the spread of infectious diseases if used carefully. A sanitizer dispenser can be made touchless automatic in different ways since various types of sensors can be used to sense the proximity.
+
+# Objective
+The main objective of this study is to facilitate the process of assembling and making a lowcost hand sanitizer dispenser, which is fully touchless and automated using Arduino. In our project, a novel design of an automated hand sanitizer dispenser is proposed, and subsequently, can be fabricated using the low-cost components that are commonly available in almost every developing country. An IR sensor is an electronic device, that emits in order to sense some aspects of the surroundings. An IR sensor can detect the motion of any object.
+The other objective of this study is to develop an automated hand sanitizer dispenser that will be able to reduce the spread of viruses such as COVID-19 and save people from a pandemic. The dispenser device was fabricated under two key objectives: user-friendly and cost-effective. The materials to be used in the device fabrication were selected with these goals in mind.
+
+# Hardware diagram 
+![image](https://github.com/Shyam301910/Automatic-Hand-Sanitizer-using-Arduino/assets/95332840/dfa834d3-89f3-4182-8681-c3a94274c231)
+
+# Software flowchart
+![image](https://github.com/Shyam301910/Automatic-Hand-Sanitizer-using-Arduino/assets/95332840/ccb36531-69b9-486f-b9e8-6b8802d4bfc0)
+
+# Circuit diagram
+![image](https://github.com/Shyam301910/Automatic-Hand-Sanitizer-using-Arduino/assets/95332840/a27716c2-6c68-46c5-9846-9b1b1ea212b8)
+
+# Working Principle
+Users can use the automatic hand sanitizer by placing their hands below the nozzle of the sanitizer. When the hands are placed below the nozzle, the IR Obstacle Sensor senses it. The basic concept of an Infrared Sensor which is used as Obstacle detector is to transmit an infrared signal, this infrared signal bounces from the surface of an object and the signal is received at the infrared receiver. When the IR sensor detects a hand, the signal from the IR sensor is then processed and obtained in the Arduino UNO microcontroller. After that, Arduino will send an output signal to the relay and indicator lights. The relay is used to turn on the DC motor when getting commands from the microcontroller. The relay used because the microcontroller cannot directly turn on the DC motor. When the IR sensor detects the hand, the red indicator light will light up. This indicates that the hand sanitizer is active and will discharge liquid from the hand sanitizer. The DC motor will run for 2 (two) seconds, because the program is set with a delay of 2 seconds. One time filling of hand sanitizer liquid can be used up to approximately 400 times. One time charging the battery, the hand sanitizer can be active for approximately 20 hours.
+
+# Output Screenshots
+![image](https://github.com/Shyam301910/Automatic-Hand-Sanitizer-using-Arduino/assets/95332840/d63df221-dd76-417b-ae9c-d3f289745e5d)
+![image](https://github.com/Shyam301910/Automatic-Hand-Sanitizer-using-Arduino/assets/95332840/889a7774-8b30-4ae6-bacb-aad76d5eaf8b)
+![image](https://github.com/Shyam301910/Automatic-Hand-Sanitizer-using-Arduino/assets/95332840/809a6b0b-1798-4de1-8b57-42409f6483b0)
+
